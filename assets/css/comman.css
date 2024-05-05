@@ -1,0 +1,31 @@
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+}
+
+.skip-nav{
+  position: absolute;
+}
+.skip-nav a{
+  position: absolute;
+  display: block;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-110%);
+}
+.skip-nav a:active,
+.skip-nav a:focus{
+  transform: translateY(0);
+}
+input, button{
+  letter-spacing: inherit;
+}
+.hidden{
+  overflow: hidden;
+}
